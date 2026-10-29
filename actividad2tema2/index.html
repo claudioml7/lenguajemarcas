@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClaudioStore - Catálogo de Hardware</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>ClaudioStore</h1>
+        <p>Tu tienda de componentes informáticos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Componentes</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="productos">
+            <h2>Catálogo de componentes</h2>
+            <p class="introduccion">
+                Encuentra los componentes ideales para tu ordenador.
+            </p>
+
+            <div class="productos">
+
+                <article class="tarjeta">
+                    <figure>
+                        <img
+                            src="img/grafica.png"
+                            alt="Tarjeta gráfica para ordenador">
+                        <figcaption>Tarjeta gráfica</figcaption>
+                    </figure>
+
+                    <span class="estado">En stock</span>
+
+                    <h3>GeForce RTX 4070</h3>
+
+                    <p>Tarjeta gráfica para gaming y aplicaciones exigentes.</p>
+
+                    <p class="precio">599,99 €</p>
+
+                    <p class="fecha">
+                        Actualizado:
+                        <time datetime="2026-10-27">27/10/2026</time>
+                    </p>
+
+                    <details>
+                        <summary>Ver especificaciones</summary>
+                        <ul>
+                            <li>Memoria: 12 GB</li>
+                            <li>Interfaz: PCI Express</li>
+                            <li>Uso: gaming</li>
+                        </ul>
+                    </details>
+
+                    <button type="button">Ver producto</button>
+                </article>
+
+                <article class="tarjeta">
+                    <figure>
+                        <img
+                            src="img/procesador.png"
+                            alt="Procesador para ordenador">
+                        <figcaption>Procesador</figcaption>
+                    </figure>
+
+                    <span class="estado">En stock</span>
+
+                    <h3>AMD Ryzen 7 7800X3D</h3>
+
+                    <p>Procesador para gaming y tareas exigentes.</p>
+
+                    <p class="precio">379,99 €</p>
+
+                    <p class="fecha">
+                        Actualizado:
+                        <time datetime="2026-10-27">27/10/2026</time>
+                    </p>
+
+                    <details>
+                        <summary>Ver especificaciones</summary>
+                        <ul>
+                            <li>Núcleos: 8</li>
+                            <li>Hilos: 16</li>
+                            <li>Socket: AM5</li>
+                        </ul>
+                    </details>
+
+                    <button type="button">Ver producto</button>
+                </article>
+
+                <article class="tarjeta" id="ofertas">
+                    <figure>
+                        <img
+                            src="img/ram.png"
+                            alt="Memoria RAM para ordenador">
+                        <figcaption>Memoria RAM</figcaption>
+                    </figure>
+
+                    <mark class="oferta">Oferta</mark>
+
+                    <h3>Corsair Vengeance DDR5</h3>
+
+                    <p>Memoria RAM para mejorar el rendimiento del equipo.</p>
+
+                    <p class="precio">
+                        <del>129,99 €</del> 99,99 €
+                    </p>
+
+                    <p class="fecha">
+                        Actualizado:
+                        <time datetime="2026-10-27">27/10/2026</time>
+                    </p>
+
+                    <details>
+                        <summary>Ver especificaciones</summary>
+                        <ul>
+                            <li>Capacidad: 32 GB</li>
+                            <li>Tipo: DDR5</li>
+                            <li>Uso: gaming y productividad</li>
+                        </ul>
+                    </details>
+
+                    <button type="button">Ver oferta</button>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <p>ClaudioStore - Catálogo de componentes hardware</p>
+        <p>
+            <small>Actividad educativa de HTML y CSS.</small>
+        </p>
+        <p>
+            <small>&copy; 2026 ClaudioStore. Todos los derechos reservados.</small>
+        </p>
+    </footer>
+
+</body>
+</html>
