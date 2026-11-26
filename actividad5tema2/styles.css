@@ -1,0 +1,52 @@
+#ficha-destacada {
+    background-color: #a559bc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-style: solid;
+}
+
+.dato-tecnico {
+    font-size: 14px;
+    color: #0b0334;
+    margin-bottom: 8px;
+    padding: left 8px;
+}
+
+.btn-comprar {
+    display: inline-block;
+    background-color: #c90202;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #b86807;
+}
+
+.btn-comprar:active {
+    transform: scale(0.95);
+}
+
+.dato-tecnico:first-child {
+    font-weight: bold;
+}
+
+.dato-tecnico:last-child {
+    background-color: #b0c73d;
+}
+
+text:focus {
+    outline: 2px solid #0db239;
+    outline-offset: 2px;
+}
+
+text:checked {
+    accent-color: #081baf;
+}
+
